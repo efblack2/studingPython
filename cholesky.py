@@ -24,7 +24,6 @@ class Matrix:
     # end of print_a
     
     def solve(this, vec):
-        
         for j in np.arange(0,this.n):
             if this.val[j,j] != 0.0:
                 vec[j] = vec[j]/this.val[j,j]

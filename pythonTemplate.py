@@ -8,7 +8,7 @@ class MyClass:
         this.a = 1.0
         this.b = 2.0
     # end of __init__() constructor
-    
+
     def __del__(this):  # This is the Destructor
         print 'bye form destructor'
     # end of __del__() destructor
@@ -20,16 +20,16 @@ class MyClass:
     def print_b(this):
         print this.b
     # end of print_b
-    
-# end of class MyClass    
+
+# end of class MyClass
 
 def main():
     print ("This is main")
     edgar=MyClass()
     edgar.print_a()
     edgar.print_b()
-# end of main()    
-    
+# end of main()
+
 if __name__ == '__main__':
     main()
 # end if

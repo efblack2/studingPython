@@ -2,7 +2,6 @@
 ## python template
 import numpy as np
 from numpy import arange
-from pickle import STOP
 
 class Matrix:
     '''
